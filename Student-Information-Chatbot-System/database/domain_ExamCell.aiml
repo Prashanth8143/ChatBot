@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+	     
+	<category>
+      <pattern>HEAD COLLEGE</pattern>
+      <template>
+		<random>
+			<li>BOT is the head of COLLEGE</li>
+			<li>BOT leads the  department.</li>
+			<li> is headed by BOT.</li>
+		</random>
+	  </template>
+    </category>
+    <category>
+      <pattern>COLLEGE</pattern>
+	  <template> 
+		<random>
+			<li>Please goto this link to get details of COLLEGE: https://google.com/</li>
+            <li>Have a look over here to get details of : https://google.com/</li>
+            <li>Click on this link to get details of : https://google.com/</li>
+        </random>			
+	  </template>
+	</category>
+	<category>
+		<pattern>AUTONOMY TOPPER LIST</pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get autonomy topper's list : https://google.com/</li> 
+                <li>Have a look over here to get autonomy topper's list : https://google.com/</li>
+				<li>Click on this link to get autonomy topper's list : https://google.com/</li>
+	        </random>
+	  </template>
+	</category>
+	<category>
+		<pattern>DOCUMENTS ISSUED  STUDENT PASSES AUTONOMY EXAMS</pattern>
+			<template>
+				<random>
+					<li>Please goto this link to get list of documents : https://google.com/</li>
+					<li>Have a look over here to get list of documents : https://google.com/</li>
+					<li>Click on this link to get list of documents : https://google.com/</li>
+                </random>       
+	   </template>
+	</category>
+	<category>
+		<pattern>FORMAT WRITING APPLICATION </pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get the format for writing application to  : https://google.com/</li>
+				<li>Have a look over here to get the format for writing application to  : https://google.com/</li>
+				<li>Click on this link to get the format for writing application to  : https://google.com/</li>
+		    </random>
+	  </template>
+	</category>
+	<category>
+		<pattern>EXAMINATION COMMITTEE</pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get the details about C.O.E : https://google.com/</li>
+				<li>Have a look over here to get the details about C.O.E : https://google.com/</li>
+				<li>Click on this link to get the details about C.O.E : https://google.com/</li>
+		    </random>   
+	  </template>
+	</category>
+	<category>
+		<pattern>LINK RESULTS TIMETABLES</pattern>
+		<template>
+			<random>
+				<li>Please goto this link : https://google.com/</li>
+				<li>Have a look over here : https://google.com/</li>
+				<li>Click on this link : https://google.com/</li>
+		    </random>   
+	  </template>
+	</category>
+</aiml>
+	
+		
