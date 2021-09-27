@@ -1,0 +1,92 @@
+body {
+  font-family: Garamond;
+  background-color: #5e2aee;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+#chatbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+  background-color: rgb(72, 5, 88,1);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#userInput {
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top:200px;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+#textInput {
+  width: 87%;
+  border: none;
+  border-bottom: 3px solid #2595d1;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+#buttonInput {
+  padding: 3px;
+  font-family: monospace;
+  font-size: 17px;
+}
+#uibox {
+  border: 2px dotted;
+  border-color: red;
+}
+.userText {
+  color: white;
+  font-family: monospace;
+  font-size: 17px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.userText span {
+  background-color: #2595d1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.botText {
+  color: white;
+  font-family: monospace;
+  font-size: 17px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.botText span {
+  background-color: #0e0d0d;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#tidbit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
